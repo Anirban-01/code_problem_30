@@ -1,0 +1,9 @@
+# Write a Python program to add two objects if both objects are an integer type.
+
+try:
+    number1 = int(input('Enter number1: '))
+    number2 = int(input('Enter number2: '))
+    value = number1 + number2
+    print(value)
+except ValueError:
+    print('either number1 or number2 are not integer, error occurred during addition.')
